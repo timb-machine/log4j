@@ -41,7 +41,7 @@ Note: Some of the public WAF regular expressions out there are probably vulnerab
 * ```find /path/to/check \( -iname "*.?ar" -o -iname "*.zip" \) | while read line; do echo $line; jar tvf $line | grep -i log4j; done```
 * ```find /path/to/check \( -iname "*.tar.bz2" -o -iname "*.tar.bz2" \) | while read line; do echo $line; tar tvf $line | grep -i log4j; done```
 
-## Yara rules
+## YARA rules
 
 Running the rules:
 
